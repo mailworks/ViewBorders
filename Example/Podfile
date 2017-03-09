@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViewBorders_Example' do
+  pod 'ViewBorders', :path => '../'
+
+  target 'ViewBorders_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

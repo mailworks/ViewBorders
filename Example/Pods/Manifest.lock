@@ -1,0 +1,16 @@
+PODS:
+  - ViewBorders (0.1.0)
+
+DEPENDENCIES:
+  - ViewBorders (from `../`)
+
+EXTERNAL SOURCES:
+  ViewBorders:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ViewBorders: f0aa941768a0d3b93d4f58c57ae5244faa14ac74
+
+PODFILE CHECKSUM: 9f148547e92473a4397d3b042523bdc109ff4d4b
+
+COCOAPODS: 1.1.1

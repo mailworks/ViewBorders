@@ -28,10 +28,6 @@ it, simply add the following line to your Podfile:
 pod "ViewBorders", :git => 'https://github.com/mailworks/ViewBorders'
 ```
 
-## Author
-
-mzeng, mailworks@qq.com
-
 ## License
 
 ViewBorders is available under the MIT license. See the LICENSE file for more info.

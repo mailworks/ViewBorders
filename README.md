@@ -25,7 +25,7 @@ ViewBorders is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ViewBorders"
+pod "ViewBorders", :git => 'https://github.com/mailworks/ViewBorders'
 ```
 
 ## Author

@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		17CFB766BCCE6426855B2B429B2276E3 /* Pods-ViewBorders_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E535164A767B5E1D1F595A9C197ED493 /* Pods-ViewBorders_Example-dummy.m */; };
 		23B50D0B57D2970F938F4D7F32BAF843 /* Pods-ViewBorders_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60E243DE566B6EB4684C3683209DAFA /* Pods-ViewBorders_Tests-dummy.m */; };
-		7EDA7523BF4ADC756F2A288988D98331 /* ViewBorders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2F4495E1B0EE0543CE1B01FE99E565 /* ViewBorders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1032F3BD6F3D9B8591167A77F7A4A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4511A78FA1BA48FD73DA8CBEDA750FD5 /* UIView+ZMBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4586C5C3AC96A2E5A4B2B9A0FC1B09AA /* UIView+ZMBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F59F2DD1306F8ABBF5C3C46132E2C8 /* UIView+ZMBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FA550D3AA13348D7D64E0C7C4A80DE /* UIView+ZMBorder.m */; };
+		80C401AD49843F05CFC023AA636C2C22 /* ViewBorders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEA1C35FE1B12F7A03E8E497F8DC09D /* ViewBorders-dummy.m */; };
+		85A383D3149D824D4B6EB2C547E9CD72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C1032F3BD6F3D9B8591167A77F7A4A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		C1499FDBF5194653BE91E2DA9E67655E /* Pods-ViewBorders_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F162AFCD545820F6B7145D2F5163B867 /* Pods-ViewBorders_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C42562165B7BADDF7D4315BC4CA52F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D1614346D5AABFB8ADA98CDEE0E81CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D93B384E1E71343B00015523 /* UIView+ZMBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D93B384C1E71343B00015523 /* UIView+ZMBorder.h */; };
-		D93B384F1E71343B00015523 /* UIView+ZMBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B384D1E71343B00015523 /* UIView+ZMBorder.m */; };
-		DD89B9AA00479C1ADB1CEDB927F6D617 /* ViewBorders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEA1C35FE1B12F7A03E8E497F8DC09D /* ViewBorders-dummy.m */; };
+		D1614346D5AABFB8ADA98CDEE0E81CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		E0AC5F08EBE2CD0212873F95556CAC06 /* Pods-ViewBorders_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CC937E82E16E6FBFB228DDEBFD45DD /* Pods-ViewBorders_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC14E49FC31499613A2E0BDD5B22E8D1 /* ViewBorders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2F4495E1B0EE0543CE1B01FE99E565 /* ViewBorders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE205DE13BC46F10BC64606364B04F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,31 +36,32 @@
 		0B04C37DA0D5219CB5349A3BAC8EFD12 /* ViewBorders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewBorders-prefix.pch"; sourceTree = "<group>"; };
 		0E5C85E3E5989565DF5E0895E01CB3E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299344A1F4A480A2FB9D83120BF607D6 /* Pods-ViewBorders_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewBorders_Tests-resources.sh"; sourceTree = "<group>"; };
-		2AE0A919D1C75E2C7928F170D4448669 /* ViewBorders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewBorders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE0A919D1C75E2C7928F170D4448669 /* ViewBorders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewBorders.framework; path = ViewBorders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2F4495E1B0EE0543CE1B01FE99E565 /* ViewBorders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewBorders-umbrella.h"; sourceTree = "<group>"; };
+		4586C5C3AC96A2E5A4B2B9A0FC1B09AA /* UIView+ZMBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMBorder.h"; sourceTree = "<group>"; };
 		54AD3CDB5F30AA0C041284909B467829 /* Pods-ViewBorders_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewBorders_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68843D617121644811CEB317E654C344 /* Pods-ViewBorders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewBorders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		69317CBCF2B62F1EF6D74C74E559E956 /* Pods-ViewBorders_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ViewBorders_Example.modulemap"; sourceTree = "<group>"; };
+		69317CBCF2B62F1EF6D74C74E559E956 /* Pods-ViewBorders_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ViewBorders_Example.modulemap"; sourceTree = "<group>"; };
 		6FEA1C35FE1B12F7A03E8E497F8DC09D /* ViewBorders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewBorders-dummy.m"; sourceTree = "<group>"; };
 		72E973DEA331DFCDB0CB2ADE6337BE77 /* Pods-ViewBorders_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewBorders_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7918816F70F60A5C420E189B95C14F2B /* Pods-ViewBorders_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ViewBorders_Tests.modulemap"; sourceTree = "<group>"; };
+		7918816F70F60A5C420E189B95C14F2B /* Pods-ViewBorders_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ViewBorders_Tests.modulemap"; sourceTree = "<group>"; };
 		79DA78FC109D1A9356E006BD3A8177AA /* Pods-ViewBorders_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewBorders_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		79FA550D3AA13348D7D64E0C7C4A80DE /* UIView+ZMBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMBorder.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		91CC937E82E16E6FBFB228DDEBFD45DD /* Pods-ViewBorders_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewBorders_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		961EF655EAEE08A7217D27108D0F8087 /* ViewBorders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ViewBorders.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961EF655EAEE08A7217D27108D0F8087 /* ViewBorders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ViewBorders.modulemap; sourceTree = "<group>"; };
 		A60E243DE566B6EB4684C3683209DAFA /* Pods-ViewBorders_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewBorders_Tests-dummy.m"; sourceTree = "<group>"; };
-		A82083FA668A182394CB4BD273BC9B12 /* Pods_ViewBorders_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewBorders_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82083FA668A182394CB4BD273BC9B12 /* Pods_ViewBorders_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ViewBorders_Tests.framework; path = "Pods-ViewBorders_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83DE85C19EE2E99417CDAB91EAF9CE0 /* Pods-ViewBorders_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewBorders_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ADC25F2476C206FD415F64DDEE898D01 /* Pods_ViewBorders_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewBorders_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC25F2476C206FD415F64DDEE898D01 /* Pods_ViewBorders_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ViewBorders_Example.framework; path = "Pods-ViewBorders_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B189D064D3C02C78E358747932F269A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B47C4DACDB93D8B29A586335F279D4DF /* ViewBorders.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewBorders.xcconfig; sourceTree = "<group>"; };
 		B7A6C4F2E1102C397B32186B864DB251 /* Pods-ViewBorders_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewBorders_Example-resources.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD8B5FE4E1C461E234230478150E1148 /* Pods-ViewBorders_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewBorders_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE96DF955EBBFA9EFA5E74D2ACB0DFF1 /* Pods-ViewBorders_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewBorders_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7C2CEF75E505E9F75D44C2B9922A0EA /* Pods-ViewBorders_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewBorders_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D93B384C1E71343B00015523 /* UIView+ZMBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMBorder.h"; sourceTree = "<group>"; };
-		D93B384D1E71343B00015523 /* UIView+ZMBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMBorder.m"; sourceTree = "<group>"; };
 		E535164A767B5E1D1F595A9C197ED493 /* Pods-ViewBorders_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewBorders_Example-dummy.m"; sourceTree = "<group>"; };
 		F05C9B1ABAC7811841FA7BF599DB1103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F162AFCD545820F6B7145D2F5163B867 /* Pods-ViewBorders_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewBorders_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -75,11 +77,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8338C43EFBC9C64B7DE6BA78F6E5EB97 /* Frameworks */ = {
+		6DFFCBD6AA0B4157E9E0C57892D1DE98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42562165B7BADDF7D4315BC4CA52F04 /* Foundation.framework in Frameworks */,
+				85A383D3149D824D4B6EB2C547E9CD72 /* Foundation.framework in Frameworks */,
+				EEE205DE13BC46F10BC64606364B04F6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,15 +123,6 @@
 			path = "Target Support Files/Pods-ViewBorders_Tests";
 			sourceTree = "<group>";
 		};
-		24EB88B6BD166A6A9B80925BCE6621A1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D93B384C1E71343B00015523 /* UIView+ZMBorder.h */,
-				D93B384D1E71343B00015523 /* UIView+ZMBorder.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		24FEFBEBFA363C0DB2C491D6EAD3B0B1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +150,16 @@
 			path = "Target Support Files/Pods-ViewBorders_Example";
 			sourceTree = "<group>";
 		};
+		2AEBA37925A1038E6096DB5C50AF66F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4586C5C3AC96A2E5A4B2B9A0FC1B09AA /* UIView+ZMBorder.h */,
+				79FA550D3AA13348D7D64E0C7C4A80DE /* UIView+ZMBorder.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2EBA848299D1EDC8EC7E57E6C6292E6D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,12 +174,12 @@
 			path = "Example/Pods/Target Support Files/ViewBorders";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -183,36 +187,38 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0B37193F1A4107C11FB1061940C25218 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				F9502640C4E2D7CFCD1E6038B77342E9 /* Products */,
 				24FEFBEBFA363C0DB2C491D6EAD3B0B1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8564352B03B16258354B3EAEF96C4C51 /* ViewBorders */ = {
+			isa = PBXGroup;
+			children = (
+				2AEBA37925A1038E6096DB5C50AF66F0 /* Classes */,
+			);
+			name = ViewBorders;
+			path = ViewBorders;
 			sourceTree = "<group>";
 		};
 		879FFB5A07AEC4F4A8449D68F4DD602F /* ViewBorders */ = {
 			isa = PBXGroup;
 			children = (
 				2EBA848299D1EDC8EC7E57E6C6292E6D /* Support Files */,
-				F616B43CBC797400E97F8334BC518F69 /* ViewBorders */,
+				8564352B03B16258354B3EAEF96C4C51 /* ViewBorders */,
 			);
 			name = ViewBorders;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F616B43CBC797400E97F8334BC518F69 /* ViewBorders */ = {
-			isa = PBXGroup;
-			children = (
-				24EB88B6BD166A6A9B80925BCE6621A1 /* Classes */,
-			);
-			path = ViewBorders;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F9502640C4E2D7CFCD1E6038B77342E9 /* Products */ = {
@@ -228,20 +234,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94D0ED37038A9D8C545A29B41505CB85 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EDA7523BF4ADC756F2A288988D98331 /* ViewBorders-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA77B7ED4F85F04B3005B765EC24A79B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93B384E1E71343B00015523 /* UIView+ZMBorder.h in Headers */,
 				E0AC5F08EBE2CD0212873F95556CAC06 /* Pods-ViewBorders_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4FC21FA366EC8C2D4B61308B09511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4511A78FA1BA48FD73DA8CBEDA750FD5 /* UIView+ZMBorder.h in Headers */,
+				EC14E49FC31499613A2E0BDD5B22E8D1 /* ViewBorders-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +266,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF774C8166C76F316111EDD05AE49EC /* Build configuration list for PBXNativeTarget "ViewBorders" */;
 			buildPhases = (
-				3B613217D883759E728EA9E3793BAFD2 /* Sources */,
-				8338C43EFBC9C64B7DE6BA78F6E5EB97 /* Frameworks */,
-				94D0ED37038A9D8C545A29B41505CB85 /* Headers */,
+				98268F64B2B19B68271255EA138A16C1 /* Sources */,
+				6DFFCBD6AA0B4157E9E0C57892D1DE98 /* Frameworks */,
+				D7D4FC21FA366EC8C2D4B61308B09511 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -337,14 +343,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B613217D883759E728EA9E3793BAFD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD89B9AA00479C1ADB1CEDB927F6D617 /* ViewBorders-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66D9F83316645361081286EA47AF9A96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,12 +351,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98268F64B2B19B68271255EA138A16C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F59F2DD1306F8ABBF5C3C46132E2C8 /* UIView+ZMBorder.m in Sources */,
+				80C401AD49843F05CFC023AA636C2C22 /* ViewBorders-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B08765FD685515A4D3569ABDCCB12D1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17CFB766BCCE6426855B2B429B2276E3 /* Pods-ViewBorders_Example-dummy.m in Sources */,
-				D93B384F1E71343B00015523 /* UIView+ZMBorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

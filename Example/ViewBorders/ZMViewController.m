@@ -7,8 +7,12 @@
 //
 
 #import "ZMViewController.h"
+#import <ViewBorders/ViewBorders-umbrella.h>
 
 @interface ZMViewController ()
+@property (weak, nonatomic) IBOutlet UIView *firstView;
+@property (weak, nonatomic) IBOutlet UIView *secondView;
+@property (weak, nonatomic) IBOutlet UIView *thirdView;
 
 @end
 
@@ -18,6 +22,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.firstView zm_addAutolayoutBorder:UIRectEdgeTop color:[UIColor blackColor] thickness:10];
+    
+    [self.secondView zm_addAutolayoutBorder:UIRectEdgeAll color:[UIColor redColor] logicThickness:10];
+    
+    [self.thirdView zm_addAutolayoutBorder:UIRectEdgeAll color:[UIColor redColor] thickness:5 inset:10];
+    
 }
 
 - (void)didReceiveMemoryWarning

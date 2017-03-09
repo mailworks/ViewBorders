@@ -1,8 +1,8 @@
 {
   "name": "ViewBorders",
   "version": "0.1.0",
-  "summary": "A short description of ViewBorders.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "add cutom border to View",
+  "description": "1.add cutom border to View",
   "homepage": "https://github.com/mzeng/ViewBorders",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ViewBorders/Classes/**/*"
+  "source_files": "ViewBorders/Classes/**/*",
+  "public_header_files": "ViewBorders/Classes/*.h",
+  "frameworks": "UIKit"
 }

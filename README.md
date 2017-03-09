@@ -5,7 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/ViewBorders.svg?style=flat)](http://cocoapods.org/pods/ViewBorders)
 [![Platform](https://img.shields.io/cocoapods/p/ViewBorders.svg?style=flat)](http://cocoapods.org/pods/ViewBorders)
 
+##Introduce
+add border to view
+![Screenshot](./image.png)
 ## Example
+```Objective-C
+[self.firstView zm_addAutolayoutBorder:UIRectEdgeTop color:[UIColor blackColor] thickness:10];
+[self.secondView zm_addAutolayoutBorder:UIRectEdgeAll color:[UIColor redColor] logicThickness:10];
+[self.thirdView zm_addAutolayoutBorder:UIRectEdgeAll color:[UIColor redColor] thickness:5 inset:10];
+```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
